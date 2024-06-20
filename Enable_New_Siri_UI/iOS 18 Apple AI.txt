@@ -1,0 +1,30 @@
+iOS 18 Apple AI
+
+
+
+
+For Cowabunga Lite Mac:
+1. Download the file
+2. Open it in Cowabunga Lite
+3. Connect your device
+4. Enable the operation in the `Custom Operations` tab at the top
+5. Click apply
+
+
+
+https://cdn.discordapp.com/attachments/1089716973887291463/1252435222608216146/iOS_18_Siri.cowperation?ex=667234b2&is=6670e332&hm=c3e6e3da6cca8cf95f372348547ea4dd4f6532221269bbb445f77349d4170baa&
+
+
+
+————————————————
+
+How to do it on Cowabunga Lite Windows:
+1. Open up Cowabunga Lite
+2. Connect Device
+3. Make sure SkipSetup is checked
+4. In file explorer, go to %APPDATA%/CowabungaLite/Workspace, find the UUID, then go to SkipSetup/ManagedPreferencesDomain/mobile
+5. Add the plist file (linked below) to that folder
+6. Click apply
+
+
+https://cdn.discordapp.com/attachments/1089716973887291463/1252440435503140895/com.apple.assistant.plist?ex=6672398d&is=6670e80d&hm=00c6a20684a7cec6d089e9fd61582722619e896c095026cb4708eefe91026aa8&

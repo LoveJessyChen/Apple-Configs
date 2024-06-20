@@ -1,0 +1,6 @@
+Enable New Siri UI on Mac with macOS Sequoia Beta 1
+1.	Open Terminal.
+2.	Enter the following commands one by one, pressing return after each one.
+defaults write com.apple.assistant bypassDeviceSupportsSAE -bool true
+and
+killall Siri
