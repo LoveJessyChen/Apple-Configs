@@ -1,0 +1,13 @@
+Enable AnyWhere on macOS 14 or below
+
+
+Enable AnyWhere on macOS 11 to macOS 14:
+
+sudo spctl --global-disable
+
+
+
+
+Enable AnyWhere on macOS 10.15 or below:
+
+sudo spctl --master-disable
