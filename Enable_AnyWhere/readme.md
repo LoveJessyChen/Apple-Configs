@@ -12,7 +12,7 @@ sudo spctl --global-disable
 
 
 
-#@ Enable AnyWhere on macOS 10.15 or below:
+## Enable AnyWhere on macOS 10.15 or below:
 
 sudo spctl --master-disable
 
