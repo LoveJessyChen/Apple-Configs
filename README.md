@@ -1,7 +1,7 @@
 # 禁用macOS的一些安全措施
 
 
-##1.Disable System Integrity Protection.
+## 1.Disable System Integrity Protection.
 
 csrutil disable
 
