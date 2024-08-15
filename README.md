@@ -27,9 +27,17 @@ sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.pl
 ## 4.开启arm64e的第三方库
 sudo nvram boot-args=-arm64e_preview_abi
 
+
+
 ⁃	Required for Apple silicon Mac.
+
+
 ⁃	Restart after executing this command.
+
+
 ⁃	This command allow system to load third-party Arm64e libraries.
+
+
 ⁃	Apple’s documentation Test your driver extensions on arm64e
 
 
