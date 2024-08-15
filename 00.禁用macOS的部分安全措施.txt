@@ -18,7 +18,8 @@ csrutil authenticated-root disable
 
 
 
-3.	Launch Terminal and enter two following commands:
+3.禁用库验证	
+Launch Terminal and enter two following commands:
 
 sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
 
@@ -27,7 +28,8 @@ sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.pl
 
 
 
-4.	sudo nvram boot-args=-arm64e_preview_abi
+4.开启arm64e的第三方库
+sudo nvram boot-args=-arm64e_preview_abi
 
 ⁃	Required for Apple silicon Mac.
 ⁃	Restart after executing this command.
@@ -37,7 +39,7 @@ sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.pl
 
 
 
-开启arm64e的第三方库只适用于arm64的机器！
+注意：开启arm64e的第三方库只适用于arm64的机器！
 
 
 关闭交换内存和开启arm64e的第三方库
