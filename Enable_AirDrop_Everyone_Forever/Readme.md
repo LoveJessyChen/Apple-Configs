@@ -26,7 +26,7 @@ Using an adaptor to connect your iDevices to your Computer.
 
 ## 4. Run
 
-![1](1.heic)
+![1](1.jpg)
 
 (1) Choose Left Pannel's "Springboard Options";
 
