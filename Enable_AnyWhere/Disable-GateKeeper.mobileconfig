@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>GKAutoRearm</key>
+				<false />
+				<key>PayloadDisplayName</key>
+				<string>Security</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.security.914C4B6B-AEA9-4D53-9FD1-1A7A01466E47</string>
+				<key>PayloadType</key>
+				<string>com.apple.security</string>
+				<key>PayloadUUID</key>
+				<string>914C4B6B-AEA9-4D53-9FD1-1A7A01466E47</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>EnableAssessment</key>
+				<false />
+				<key>PayloadDisplayName</key>
+				<string>System Policy: Control</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.systempolicy.control.A6236F41-B258-43C9-95B6-33411734C6FC</string>
+				<key>PayloadType</key>
+				<string>com.apple.systempolicy.control</string>
+				<key>PayloadUUID</key>
+				<string>A6236F41-B258-43C9-95B6-33411734C6FC</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDisplayName</key>
+		<string>Disable GateKeeper</string>
+		<key>PayloadIdentifier</key>
+		<string>Disable-GateKeeper</string>
+		<key>PayloadOrganization</key>
+		<string />
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>8e6c1dc5-e80b-410f-974d-3ad774536bc3</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
+		<integer>5</integer>
+	</dict>
+</plist>
