@@ -1,0 +1,26 @@
+
+
+How to stop the screen recording prompts forever?
+
+
+
+defaults read ~/Library/Group\ Containers/group.com.apple.replayd/ScreenCaptureApprovals.plist
+
+This file is protected by TCC, so to access it you'll need to grant Full Disk Access to Terminal app.
+
+{   "/Applications/Shottr.app/Contents/MacOS/Shottr" = "2024-09-21 12:40:36 +0000";  }
+
+
+In the plist file, the keys are the paths of the executable files with screen recording permission, and the values are dates. I'm using the Shottr screenshot tool as an example.
+
+To stop the prompts forever—for the rest of your life, anyway—set the date to far in the future, for example, the year 3024 instead of 2024.
+
+defaults write ~/Library/Group\ Containers/group.com.apple.replayd/ScreenCaptureApprovals.plist "/Applications/Shottr.app/Contents/MacOS/Shottr" -date "3024-09-21 12:40:36 +0000"
+
+You'll need to do this for each app, and afterward logout and login again so that the replayd process recognizes the new defaults.
+
+Not gonna do this, but good to have the knowledge; we will see if Apple provides something better.
+
+
+
+source: https://lapcatsoftware.com/articles/2024/8/10.html
