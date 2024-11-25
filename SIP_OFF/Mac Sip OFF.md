@@ -48,6 +48,6 @@ Enter password for user xxxx 时候，输入你的Mac开机用户名与密码并
 
  [IMG_2426.HEIC](IMG_2426.HEIC) 
 
-
+显示successfully 就说明成功了。
 
 最后，点击苹果标志，重启或关机 退出恢复模式。
