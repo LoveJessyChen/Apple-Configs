@@ -44,6 +44,11 @@ sudo nvram boot-args=-arm64e_preview_abi
 
 注意：开启arm64e的第三方库只适用于arm64的机器！
 
+## 5.关闭 Mac 上的 XProtect
+
+
+sudo defaults write /Library/Preferences/com.apple.security.plist XProtectEnabled -bool false
+
 ---
 
 
