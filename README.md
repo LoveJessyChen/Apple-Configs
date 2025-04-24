@@ -58,3 +58,5 @@ sudo nvram boot-args=-arm64e_preview_abi\ vm_compressor=2
 
 sudo nvram boot-args="-arm64e_preview_abi vm_compressor=2 amfi_get_out_of_my_way=1 amfi_allow_any_signature=1"
 
+sudo nvram boot-args="-arm64e_preview_abi vm_compressor=2 amfi_get_out_of_my_way=1 amfi_allow_any_signature=1 BootPreference=%00"
+
