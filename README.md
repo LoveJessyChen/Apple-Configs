@@ -49,6 +49,10 @@ sudo nvram boot-args=-arm64e_preview_abi
 
 sudo defaults write /Library/Preferences/com.apple.security.plist XProtectEnabled -bool false
 
+### XProtect 用户端的文件路径
+
+/Library/Apple/System/Library/CoreServices/XProtect.bundle
+
 ---
 
 
