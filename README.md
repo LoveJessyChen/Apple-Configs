@@ -56,7 +56,7 @@ sudo defaults write /Library/Preferences/com.apple.security.plist XProtectEnable
 ---
 
 
-## 关闭交换内存和开启arm64e的第三方库
+## 推荐的NVRAM配置
 sudo nvram boot-args=-arm64e_preview_abi\ vm_compressor=2
 
 
