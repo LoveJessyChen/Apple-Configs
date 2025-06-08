@@ -57,10 +57,17 @@ sudo defaults write /Library/Preferences/com.apple.security.plist XProtectEnable
 
 
 ## 推荐的NVRAM配置
+
 sudo nvram boot-args=-arm64e_preview_abi\ vm_compressor=2
 
 
 sudo nvram boot-args="-arm64e_preview_abi vm_compressor=2 amfi_get_out_of_my_way=1 amfi_allow_any_signature=1"
 
-sudo nvram boot-args="-arm64e_preview_abi vm_compressor=2 amfi_get_out_of_my_way=1 amfi_allow_any_signature=1 BootPreference=%00"
+
+
+
+
+## 为防止在打开盖子或连接电源时启动：
+
+sudo nvram BootPreference=%00
 
